@@ -1,0 +1,8 @@
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\08. Basketball Equipment\bin\Debug\_08.Basketball_Equipment.exe.config
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\08. Basketball Equipment\bin\Debug\_08.Basketball_Equipment.exe
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\08. Basketball Equipment\bin\Debug\_08.Basketball_Equipment.pdb
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\08. Basketball Equipment\obj\Debug\08. Basketball Equipment.csproj.AssemblyReference.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\08. Basketball Equipment\obj\Debug\08. Basketball Equipment.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\08. Basketball Equipment\obj\Debug\08. Basketball Equipment.csproj.CoreCompileInputs.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\08. Basketball Equipment\obj\Debug\_08.Basketball_Equipment.exe
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\08. Basketball Equipment\obj\Debug\_08.Basketball_Equipment.pdb

@@ -1,0 +1,8 @@
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\9. Fish Tank\bin\Debug\_9.Fish_Tank.exe.config
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\9. Fish Tank\bin\Debug\_9.Fish_Tank.exe
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\9. Fish Tank\bin\Debug\_9.Fish_Tank.pdb
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\9. Fish Tank\obj\Debug\9. Fish Tank.csproj.AssemblyReference.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\9. Fish Tank\obj\Debug\9. Fish Tank.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\9. Fish Tank\obj\Debug\9. Fish Tank.csproj.CoreCompileInputs.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\9. Fish Tank\obj\Debug\_9.Fish_Tank.exe
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\9. Fish Tank\obj\Debug\_9.Fish_Tank.pdb
