@@ -36,7 +36,6 @@ namespace _6.Repainting
             double extraPricePaint = paintPrice * 0.10 + 0.40;
             double workPrice = int.Parse(Console.ReadLine()) * ((foilPrice + paintPrice + paintThinnerPrice + extraPricePaint) * 0.30 );
             Console.WriteLine("{" + (foilPrice + paintThinnerPrice + extraPricePaint + paintPrice + workPrice).ToString() + "}");
-            Console.ReadLine();
         }
     }
 }
