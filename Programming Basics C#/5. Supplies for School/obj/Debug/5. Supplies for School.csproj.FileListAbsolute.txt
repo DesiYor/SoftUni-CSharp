@@ -1,0 +1,8 @@
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\5. Supplies for School\bin\Debug\_5.Supplies_for_School.exe.config
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\5. Supplies for School\bin\Debug\_5.Supplies_for_School.exe
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\5. Supplies for School\bin\Debug\_5.Supplies_for_School.pdb
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\5. Supplies for School\obj\Debug\5. Supplies for School.csproj.AssemblyReference.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\5. Supplies for School\obj\Debug\5. Supplies for School.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\5. Supplies for School\obj\Debug\5. Supplies for School.csproj.CoreCompileInputs.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\5. Supplies for School\obj\Debug\_5.Supplies_for_School.exe
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\5. Supplies for School\obj\Debug\_5.Supplies_for_School.pdb
