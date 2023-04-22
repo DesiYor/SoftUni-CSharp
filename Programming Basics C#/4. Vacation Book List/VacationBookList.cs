@@ -14,10 +14,6 @@
 
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _4.Vacation_Book_List
 {
@@ -25,6 +21,14 @@ namespace _4.Vacation_Book_List
     {
         static void Main(string[] args)
         {
+            int pages = int.Parse(Console.ReadLine());
+            int pagesPerHour = int.Parse(Console.ReadLine());   
+            int days = int.Parse(Console.ReadLine());   
+
+            double result = (pages / pagesPerHour) / days;
+
+            Console.WriteLine(result);  
+
         }
     }
 }
