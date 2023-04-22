@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Repainting", "Repainting
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Food Delivery", "7. Food Delivery\7. Food Delivery.csproj", "{C5AF21AA-3CB4-47A5-B2E1-73EAB05406BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Basketball Equipment", "08. Basketball Equipment\08. Basketball Equipment.csproj", "{781740A3-D608-4967-8B2B-B65A7383D08A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Basketball Equipment", "08. Basketball Equipment\8. Basketball Equipment.csproj", "{781740A3-D608-4967-8B2B-B65A7383D08A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Fish Tank", "9. Fish Tank\9. Fish Tank.csproj", "{D937AAAA-77B8-4BC1-B57F-ED627231EAF7}"
 EndProject

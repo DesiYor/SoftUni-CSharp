@@ -19,7 +19,7 @@
 using System;
 
 
-namespace _08.Basketball_Equipment
+namespace _8.Basketball_Equipment
 {
     internal class BasketballEquipment
     {
