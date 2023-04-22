@@ -1,2 +1,2 @@
 # SoftUni-CSharp
- SoftUni C# lessons - homeworks and ecams { СофтУни C# Уроци - домашни работи и изпитни задачи }
+ SoftUni C# lessons - homework's and exams { СофтУни C# Уроци - домашни работи и изпитни задачи }
