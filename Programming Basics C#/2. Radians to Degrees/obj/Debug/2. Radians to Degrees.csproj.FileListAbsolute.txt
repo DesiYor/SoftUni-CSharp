@@ -1,0 +1,8 @@
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\2. Radians to Degrees\bin\Debug\_2.Radians_to_Degrees.exe.config
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\2. Radians to Degrees\bin\Debug\_2.Radians_to_Degrees.exe
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\2. Radians to Degrees\bin\Debug\_2.Radians_to_Degrees.pdb
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\2. Radians to Degrees\obj\Debug\2. Radians to Degrees.csproj.AssemblyReference.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\2. Radians to Degrees\obj\Debug\2. Radians to Degrees.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\2. Radians to Degrees\obj\Debug\2. Radians to Degrees.csproj.CoreCompileInputs.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\2. Radians to Degrees\obj\Debug\_2.Radians_to_Degrees.exe
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\2. Radians to Degrees\obj\Debug\_2.Radians_to_Degrees.pdb

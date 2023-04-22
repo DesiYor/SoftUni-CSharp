@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1.USD_to_BGN
+namespace _2.Radians_to_Degrees
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            double usd = double.Parse(Console.ReadLine());
-            double bgn = usd * 1.79549;
-            Console.WriteLine(bgn);
+            double rad = double.Parse(Console.ReadLine());
+            double deg = rad * 180 / Math.PI;
+            Console.WriteLine(deg);
         }
     }
 }
