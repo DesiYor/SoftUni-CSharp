@@ -1,0 +1,8 @@
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\3. Deposit Calculator\bin\Debug\_3.Deposit_Calculator.exe.config
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\3. Deposit Calculator\bin\Debug\_3.Deposit_Calculator.exe
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\3. Deposit Calculator\bin\Debug\_3.Deposit_Calculator.pdb
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\3. Deposit Calculator\obj\Debug\3. Deposit Calculator.csproj.AssemblyReference.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\3. Deposit Calculator\obj\Debug\3. Deposit Calculator.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\3. Deposit Calculator\obj\Debug\3. Deposit Calculator.csproj.CoreCompileInputs.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\3. Deposit Calculator\obj\Debug\_3.Deposit_Calculator.exe
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\3. Deposit Calculator\obj\Debug\_3.Deposit_Calculator.pdb

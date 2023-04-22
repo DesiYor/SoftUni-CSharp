@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Radians to Degrees", "2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Deposit Calculator", "3. Deposit Calculator\3. Deposit Calculator.csproj", "{7AEFA926-7B83-43AB-BC02-4EADCFEB3547}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Vacation Book List", "4. Vacation Book List\4. Vacation Book List.csproj", "{78D27F88-7321-498F-8898-29CF13563D14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7AEFA926-7B83-43AB-BC02-4EADCFEB3547}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AEFA926-7B83-43AB-BC02-4EADCFEB3547}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AEFA926-7B83-43AB-BC02-4EADCFEB3547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D27F88-7321-498F-8898-29CF13563D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D27F88-7321-498F-8898-29CF13563D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D27F88-7321-498F-8898-29CF13563D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D27F88-7321-498F-8898-29CF13563D14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
