@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Pet Shop", "17. Pet Sho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. Yard Greening", "18. Yard Greening\18. Yard Greening.csproj", "{48ABC7F3-1723-47D6-9AB8-62E1E1C148FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{C6D10DF6-CD4E-4071-AD28-5411F3FE00ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{48ABC7F3-1723-47D6-9AB8-62E1E1C148FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48ABC7F3-1723-47D6-9AB8-62E1E1C148FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48ABC7F3-1723-47D6-9AB8-62E1E1C148FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6D10DF6-CD4E-4071-AD28-5411F3FE00ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D10DF6-CD4E-4071-AD28-5411F3FE00ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D10DF6-CD4E-4071-AD28-5411F3FE00ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D10DF6-CD4E-4071-AD28-5411F3FE00ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
