@@ -1,8 +1,0 @@
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\7. Food Delivery\bin\Debug\_7.Food_Delivery.exe.config
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\7. Food Delivery\bin\Debug\_7.Food_Delivery.exe
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\7. Food Delivery\bin\Debug\_7.Food_Delivery.pdb
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\7. Food Delivery\obj\Debug\7. Food Delivery.csproj.AssemblyReference.cache
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\7. Food Delivery\obj\Debug\7. Food Delivery.csproj.SuggestedBindingRedirects.cache
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\7. Food Delivery\obj\Debug\7. Food Delivery.csproj.CoreCompileInputs.cache
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\7. Food Delivery\obj\Debug\_7.Food_Delivery.exe
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\7. Food Delivery\obj\Debug\_7.Food_Delivery.pdb
