@@ -1,8 +1,0 @@
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\1. USD to BGN\bin\Debug\_1.USD_to_BGN.exe.config
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\1. USD to BGN\bin\Debug\_1.USD_to_BGN.exe
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\1. USD to BGN\bin\Debug\_1.USD_to_BGN.pdb
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\1. USD to BGN\obj\Debug\1. USD to BGN.csproj.AssemblyReference.cache
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\1. USD to BGN\obj\Debug\1. USD to BGN.csproj.SuggestedBindingRedirects.cache
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\1. USD to BGN\obj\Debug\1. USD to BGN.csproj.CoreCompileInputs.cache
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\1. USD to BGN\obj\Debug\_1.USD_to_BGN.exe
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\1. USD to BGN\obj\Debug\_1.USD_to_BGN.pdb
