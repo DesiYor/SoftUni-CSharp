@@ -40,7 +40,6 @@ namespace _25.Area_of_Figures
                 double b = double.Parse(Console.ReadLine());
                 Console.WriteLine(string.Format("{0:0.000}", a * b / 2));
             }
-            Console.ReadLine();
         }
     }
 }
