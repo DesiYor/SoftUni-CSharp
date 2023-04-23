@@ -1,8 +1,0 @@
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\Repainting\bin\Debug\Repainting.exe.config
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\Repainting\bin\Debug\Repainting.exe
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\Repainting\bin\Debug\Repainting.pdb
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\Repainting\obj\Debug\6. Repainting.csproj.AssemblyReference.cache
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\Repainting\obj\Debug\6. Repainting.csproj.SuggestedBindingRedirects.cache
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\Repainting\obj\Debug\6. Repainting.csproj.CoreCompileInputs.cache
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\Repainting\obj\Debug\Repainting.exe
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\Repainting\obj\Debug\Repainting.pdb
