@@ -1,0 +1,8 @@
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\17. Pet Shop\bin\Debug\_17.Pet_Shop.exe.config
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\17. Pet Shop\bin\Debug\_17.Pet_Shop.exe
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\17. Pet Shop\bin\Debug\_17.Pet_Shop.pdb
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\17. Pet Shop\obj\Debug\17. Pet Shop.csproj.AssemblyReference.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\17. Pet Shop\obj\Debug\17. Pet Shop.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\17. Pet Shop\obj\Debug\17. Pet Shop.csproj.CoreCompileInputs.cache
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\17. Pet Shop\obj\Debug\_17.Pet_Shop.exe
+D:\GitHub\SoftUni-CSharp\Programming Basics C#\17. Pet Shop\obj\Debug\_17.Pet_Shop.pdb
