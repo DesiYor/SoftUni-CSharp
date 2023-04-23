@@ -1,8 +1,0 @@
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\4. Vacation Book List\bin\Debug\_4.Vacation_Book_List.exe.config
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\4. Vacation Book List\bin\Debug\_4.Vacation_Book_List.exe
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\4. Vacation Book List\bin\Debug\_4.Vacation_Book_List.pdb
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\4. Vacation Book List\obj\Debug\4. Vacation Book List.csproj.AssemblyReference.cache
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\4. Vacation Book List\obj\Debug\4. Vacation Book List.csproj.SuggestedBindingRedirects.cache
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\4. Vacation Book List\obj\Debug\4. Vacation Book List.csproj.CoreCompileInputs.cache
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\4. Vacation Book List\obj\Debug\_4.Vacation_Book_List.exe
-D:\GitHub\SoftUni-CSharp\Programming Basics C#\4. Vacation Book List\obj\Debug\_4.Vacation_Book_List.pdb
