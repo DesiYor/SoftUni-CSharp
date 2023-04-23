@@ -24,22 +24,23 @@ namespace _25.Area_of_Figures
             string input = Console.ReadLine();
             if (input == "square") {
                 double a = double.Parse(Console.ReadLine());
-                Console.WriteLine(Math.Round(a * a, 3));
+                Console.WriteLine(string.Format("{0:0.000}", a * a));
             }
             else if (input == "rectangle") {
                 double a = double.Parse(Console.ReadLine());
                 double b = double.Parse(Console.ReadLine());
-                Console.WriteLine(Math.Round(a * b, 3));
+                Console.WriteLine(string.Format("{0:0.000}", a * b));
             }
             else if (input == "circle") {
                 double a = double.Parse(Console.ReadLine());
-                Console.WriteLine(Math.Round(Math.PI * Math.Pow(a, 2), 3));
+                Console.WriteLine(string.Format("{0:0.000}", Math.PI * Math.Pow(a,2)));
             }
             else if (input == "triangle") {
                 double a = double.Parse(Console.ReadLine());
                 double b = double.Parse(Console.ReadLine());
-                Console.WriteLine(Math.Round(a * b, 3));
+                Console.WriteLine(string.Format("{0:0.000}", a * b / 2));
             }
+            Console.ReadLine();
         }
     }
 }
