@@ -28,6 +28,23 @@ namespace _33.Lunch_Break
     {
         static void Main(string[] args)
         {
+            string nameSeries = Console.ReadLine();
+            int epizodeTime = int.Parse(Console.ReadLine());
+            double breakTime = int.Parse(Console.ReadLine());
+            double timeToWatch = breakTime - (breakTime / 8) - (breakTime / 4);
+            int round = 0; // Допулнитела променлива която да съхранява закръглянто с + 1 при остатук
+            if (Math.Abs(timeToWatch - epizodeTime) % 1 > 0 ) { round++; }
+            if (timeToWatch >= epizodeTime) 
+            {
+                Console.WriteLine($"You have enough time to watch {nameSeries} " +
+                    $"and left with {(int)(timeToWatch-epizodeTime+round)} minutes free time.");
+            }
+            else
+            {
+                Console.WriteLine($"You don't have enough time to watch {nameSeries}, " +
+                    $"you need {(int)(epizodeTime-timeToWatch+round)} more minutes.");
+            }
+            Console.ReadLine();
         }
     }
 }
