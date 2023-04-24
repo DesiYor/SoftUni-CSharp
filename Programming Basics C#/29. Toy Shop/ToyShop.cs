@@ -46,26 +46,18 @@ namespace _29.Toy_Shop
             int tedyBear = int.Parse(Console.ReadLine());
             int minions = int.Parse(Console.ReadLine());   
             int tracks = int.Parse(Console.ReadLine());
-            bool discount = false;
+
             double purchases = puzle * 2.60 + doll * 3.00 + tedyBear * 4.10 + minions * 8.20 + tracks * 2.00;
 
             if (puzle + doll + tedyBear + minions + tracks >= 50) 
-            { 
-                discount = true; 
-            }
-            if (discount && purchases * (1 - 0.25) * (1 - 0.1) >= vacationPrice) 
             {
-                Console.WriteLine($"Yes! {(purchases * (1 - 0.25) * (1 - 0.1)) - vacationPrice:f2} lv left.");
+                purchases -= purchases * 0.25; 
             }
-            else if (discount && purchases * (1 - 0.25) * (1 - 0.1) < vacationPrice)
-            {
-                Console.WriteLine($"Not enough money! {vacationPrice - (purchases * (1 - 0.25) * (1 - 0.1)):f2} lv needed.");
-            }
-            if (!discount && purchases * (1 - 0.1) >= vacationPrice)
+            if (purchases * (1 - 0.1) >= vacationPrice) 
             {
                 Console.WriteLine($"Yes! {(purchases * (1 - 0.1)) - vacationPrice:f2} lv left.");
             }
-            else if (!discount && purchases * (1 - 0.1) < vacationPrice)
+            else if (purchases * (1 - 0.1) < vacationPrice)
             {
                 Console.WriteLine($"Not enough money! {vacationPrice - (purchases * (1 - 0.1)):f2} lv needed.");
             }
