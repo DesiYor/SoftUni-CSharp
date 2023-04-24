@@ -30,6 +30,18 @@ namespace _31.World_Swimming_Record
     {
         static void Main(string[] args)
         {
+            double reccord = double.Parse(Console.ReadLine());
+            double lenght = double.Parse(Console.ReadLine());
+            double time = double.Parse(Console.ReadLine());
+            double totalTime = (lenght * time) + (((int)(lenght / 15)) * 12.5);
+            if (totalTime < reccord)
+            {
+                Console.WriteLine($" Yes, he succeeded! The new world record is {totalTime:f2} seconds.");
+            }
+            else
+            {
+                Console.WriteLine($"No, he failed! He was {totalTime-reccord:f2} seconds slower.");
+            }
         }
     }
 }
