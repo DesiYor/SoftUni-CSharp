@@ -44,7 +44,6 @@ namespace _33.Lunch_Break
                 Console.WriteLine($"You don't have enough time to watch {nameSeries}, " +
                     $"you need {(int)(epizodeTime-timeToWatch+round)} more minutes.");
             }
-            Console.ReadLine();
         }
     }
 }
