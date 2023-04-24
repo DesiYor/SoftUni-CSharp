@@ -15,6 +15,11 @@ namespace _26.Sum_Seconds
     {
         static void Main(string[] args)
         {
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int c = int.Parse(Console.ReadLine());
+            if ( ((a+b+c) % 60) <= 9 ) { Console.WriteLine($"{(a + b + c) / 60}:0{(a + b + c) % 60}"); }
+                else { Console.WriteLine($"{(a + b + c) / 60}:{(a + b + c) % 60}"); }
         }
     }
 }
