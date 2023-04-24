@@ -69,8 +69,6 @@ namespace _29.Toy_Shop
             {
                 Console.WriteLine($"Not enough money! {vacationPrice - (purchases * (1 - 0.1)):f2} lv needed.");
             }
-            Console.ReadLine();
-
         }
     }
 }
