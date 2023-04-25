@@ -5,3 +5,4 @@ Properties
 App.config
 *.csproj
 *.sln
+*.csproj.user
