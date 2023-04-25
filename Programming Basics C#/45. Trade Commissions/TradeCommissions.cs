@@ -48,7 +48,6 @@ namespace _45.Trade_Commissions
                     break;
                 default: Console.WriteLine("error"); break;
             }
-            Console.ReadLine();
         }
     }
 }
