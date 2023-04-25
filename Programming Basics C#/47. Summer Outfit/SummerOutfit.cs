@@ -5,7 +5,7 @@
 ⦁	Градусите - цяло число в интервала [10…42]
 ⦁	Текст, време от денонощието - с възможности - "Morning", "Afternoon", "Evening"
 
-!!!!! Таблицата е в файла с задачи -> 
+!!!!! Таблицата е в файла с задачи -> https://github.com/DimitarZhelyazkov/SoftUni-CSharp/blob/SoftUni/Programming%20Basics%20C%23/01.%20Cinema_%D0%A3%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F.docx
 
 Да се отпечата на конзолата на един ред: "It's {градуси} degrees, get your {облекло} and {обувки}."
 
