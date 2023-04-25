@@ -31,6 +31,39 @@ namespace _48.New_House
     {
         static void Main(string[] args)
         {
+            string flowers = Console.ReadLine();
+            int amount = int.Parse(Console.ReadLine());
+            int budget = int.Parse(Console.ReadLine());
+            double total = 0;
+            switch (flowers)
+            {
+                case "Roses": 
+                    if (amount > 80) { total = (amount * 5) * (1 - 0.10); }
+                    else { total = amount * 5; }
+                    break;
+                case "Dahlias":
+                    if (amount > 90) { total = (amount * 3.80) * (1 - 0.15); }
+                    else { total = amount * 3.80; }
+                    break;
+                case "Tulips":
+                    if (amount > 80) { total = (amount * 2.80) * (1 - 0.15); }
+                    else { total = amount * 2.80; }
+                    break;
+                case "Narcissus":
+                    if (amount < 120) { total = (amount * 3) + ( amount * 3 * 0.15); }
+                    else { total = amount * 3; }
+                    break;
+                case "Gladiolus":
+                    if (amount < 80) { total = (amount * 2.50) + (amount * 2.50 * 0.20); }
+                    else { total = amount * 2.50; }
+                    break;
+                default: break;
+            }
+            if (total <= budget)
+            {
+                Console.WriteLine($"Hey, you have a great garden with {amount} {flowers} and {budget-total:f2} leva left.");
+            }
+            else { Console.WriteLine($"Not enough money, you need {total-budget:f2} leva more."); }
         }
     }
 }
