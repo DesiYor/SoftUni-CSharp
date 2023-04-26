@@ -33,7 +33,30 @@ namespace _54.Ski_Trip
     {
         static void Main(string[] args)
         {
-
+            int nights = int.Parse(Console.ReadLine()) - 1;
+            string app = Console.ReadLine();
+            string feed = Console.ReadLine();
+            double extraDisc = 0;
+            double discount = 0;
+            double price = 0;
+            if (feed == "positive") { extraDisc = -0.25; } else { extraDisc = 0.10; }
+            switch (app)
+            {
+                case "room for one person": price = 18.00 * nights; break;
+                case "apartment":
+                    if (nights < 10) { discount = 0.30; }
+                    else if (nights >= 10 && nights < 15) { discount = 0.35; }
+                    else { discount = 0.5; }
+                    price = nights * 25.00 * (1 - discount);
+                    break;
+                case "president apartment":
+                    if (nights < 10) { discount = 0.10; }
+                    else if (nights >= 10 && nights < 15) { discount = 0.15; }
+                    else { discount = 0.20; }
+                    price = nights *35.00 * (1 - discount);
+                    break;
+            }
+            Console.WriteLine($"{price * (1 - extraDisc):f2}");
         }
     }
 }
