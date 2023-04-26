@@ -16,18 +16,17 @@ namespace _60.Vowels_Sum
     {
         static void Main(string[] args)
         {
-            char[] text = Console.ReadLine().ToCharArray();
+            string text = Console.ReadLine();
             int total = 0;
             for (int i = 0; i < text.Length; i++)
             {
-                Console.WriteLine(text[i]);
-                if (text[i] == 'a') { total++; }
+                if (text[i].Equals('a')) { total++; }
                 if (text[i] == 'e') { total += 2; }
                 if (text[i] == 'i') { total += 3; }
                 if (text[i] == 'o') { total += 4; }
                 if (text[i] == 'u') { total += 5; }
             }
-            Console.ReadLine();
+            Console.WriteLine(total);
         }
     }
 }
