@@ -33,6 +33,31 @@ namespace _53.On_Time_for_the_Exam
     {
         static void Main(string[] args)
         {
+            int exHour = int.Parse(Console.ReadLine());
+            int exMin = int.Parse(Console.ReadLine());
+            int arrHour = int.Parse(Console.ReadLine());
+            int arrMin = int.Parse(Console.ReadLine());
+
+            int totalMinExam = exHour * 60 + exMin;
+            int totalMinArr = arrHour * 60 + arrMin;
+            int diff = Math.Abs(totalMinExam - totalMinArr);
+            int diffHours = diff / 60;
+            int diffMin = diff % 60;
+
+            if (totalMinArr > totalMinExam ) {
+                Console.WriteLine("Late");
+                if (diff < 60) { Console.WriteLine($"{diff} minutes after the start"); }
+                    else { Console.WriteLine($"{diffHours}:{diffMin:00} hours after the start"); }
+            }
+            if (totalMinArr == totalMinExam ) {
+                Console.WriteLine("On time");
+            }
+            if (totalMinExam > totalMinArr)
+            {
+                if(diff <= 30) { Console.WriteLine($"On Time"); Console.WriteLine($"{diffMin} minutes before the start"); }
+                    else if (diff < 60 )  { Console.WriteLine("Early"); Console.WriteLine($"{diffMin} minutes before the start"); }
+                else { Console.WriteLine($"Early"); Console.WriteLine($"{diffHours}:{diffMin:00} hours before the start"); }
+            }
         }
     }
 }
