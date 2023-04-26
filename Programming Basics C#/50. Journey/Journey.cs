@@ -36,6 +36,33 @@ namespace _50.Journey
     {
         static void Main(string[] args)
         {
+            double budget = double.Parse(Console.ReadLine());
+            string season = Console.ReadLine();
+            string place = null;
+            string type = null;
+            if (budget <= 100) { place = "Bulgaria"; }
+            else if (budget > 100 && budget <= 1000 ) { place = "Balkans"; }
+            else { place = "Europe"; }
+            switch(place)
+            {
+                case "Bulgaria": 
+                    if (season == "summer") { type = "Camp"; budget = budget * 0.30;  }
+                    else { type = "Hotel"; budget = budget * 0.70; }
+                    break;
+                case "Balkans":
+                    if (season == "summer") { type = "Camp"; budget = budget * 0.40; }
+                    else { type = "Hotel"; budget = budget * 0.80; }
+                    break;
+                case "Europe":
+                    type = "Hotel"; budget = budget * 0.90; 
+                    break;
+                default: break;
+            }
+            if (type != null && place != null) {
+                Console.WriteLine($"Somewhere in {place}");
+                Console.WriteLine($"{type} - {budget:f2}");
+            }
+            Console.ReadLine();
         }
     }
 }
