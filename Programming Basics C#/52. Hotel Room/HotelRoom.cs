@@ -25,13 +25,43 @@
 
 using System;
 
-
 namespace _52.Hotel_Room
 {
     internal class HotelRoom
     {
         static void Main(string[] args)
         {
+            string month = Console.ReadLine();
+            int nights = int.Parse(Console.ReadLine());
+            double discountStudio = 0;
+            double discountApp = 0;
+            double priceApp = 0;
+            double priceStudio = 0;
+            if (nights > 14) { discountApp = 0.1; }
+            switch (month)
+            {
+                case "May":
+                case "October":
+                    if (nights > 7 && nights < 14) { discountStudio = 0.05; }
+                    if (nights >= 14) { discountStudio = 0.30; }
+                    priceApp = 65;
+                    priceStudio = 50;
+                    break;
+                case "June":
+                case "September":
+                    if (nights > 14) { discountStudio = 0.20; }
+                    priceApp = 68.70;
+                    priceStudio = 75.20;
+                    break;
+                case "July":
+                case "August":
+                    priceApp = 77;
+                    priceStudio = 76;
+                    break;
+                default: break;
+            }
+            Console.WriteLine($"Apartment: {nights * priceApp * (1 - discountApp):f2} lv.");
+            Console.WriteLine($"Studio: {nights * priceStudio * (1 - discountStudio):f2} lv.");
         }
     }
 }
