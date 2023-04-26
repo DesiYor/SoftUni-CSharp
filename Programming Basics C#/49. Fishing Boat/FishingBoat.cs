@@ -41,23 +41,20 @@ namespace _49.Fishing_Boat
             string season = Console.ReadLine();
             int fisherMans = int.Parse(Console.ReadLine());
             double total = 0;
+            double discount = 0;
+            if (fisherMans <= 6) { discount = 0.1; }
+            else if (fisherMans >= 7 && fisherMans <= 11) { discount = 0.15; }
+            else { discount = 0.25; }
             switch (season)
             {
                 case "Spring":
-                    if (fisherMans <= 6) { total = 3000 * (1 - 0.1); }
-                    else if (fisherMans >= 7 && fisherMans <= 11) { total = 3000 * (1 - 0.15); }
-                    else { total = 3000 * (1 - 0.25); }
+                    total = 3000 * (1 - discount);
                     break;
-                case "Summer": //И двете да еднакви като изход 
-                case "Autumn":
-                    if (fisherMans <= 6) { total = 4200 * (1 - 0.1); }
-                    else if (fisherMans >= 7 && fisherMans <= 11) { total = 4200 * (1 - 0.15); }
-                    else { total = 4200 * (1 - 0.25); }
+                case "Summer": case "Autumn": //И двете да еднакви като изход 
+                    total = 4200 * (1 - discount);
                     break;
                 case "Winter":
-                    if (fisherMans <= 6) { total = 2600 * (1 - 0.1); }
-                    else if (fisherMans >= 7 && fisherMans <= 11) { total = 2600 * (1 - 0.15); }
-                    else { total = 2600 * (1 - 0.25); }
+                    total = 2600 * (1 - discount);
                     break;
                 default: break;
             }
