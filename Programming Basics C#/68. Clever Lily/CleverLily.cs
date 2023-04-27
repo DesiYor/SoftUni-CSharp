@@ -31,6 +31,20 @@ namespace _68.Clever_Lily
     {
         static void Main(string[] args)
         {
+            int lilyAge = int.Parse(Console.ReadLine());
+            double priceWmachine = double.Parse(Console.ReadLine());
+            double priceToy = double.Parse(Console.ReadLine());
+            double totalMoney = 0;
+            int toyCounter = 0;
+            for (int i = 1; i <= lilyAge; i++)
+            {
+                if (i % 2 == 0) { totalMoney += (10.00 * i / 2 - 1.00); }
+                else { toyCounter++; }
+            }
+            totalMoney += toyCounter * priceToy;
+            if(totalMoney >= priceWmachine) { Console.WriteLine($"Yes! {totalMoney-priceWmachine:f2}"); }
+            else { Console.WriteLine($"No! {priceWmachine-totalMoney:f2}"); }
+            Console.ReadLine();
         }
     }
 }
