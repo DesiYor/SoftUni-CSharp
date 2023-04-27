@@ -16,7 +16,18 @@ namespace _66.Half_Sum_Element
     {
         static void Main(string[] args)
         {
-
+            int loop = int.Parse(Console.ReadLine());
+            int numberMax = 0;
+            int numberSum = 0;
+            for (int i = 0; i < loop; i++)
+            {
+                int number = int.Parse(Console.ReadLine());
+                if(i == 0) { numberMax = number; }
+                if(numberMax < number) { numberMax = number; }
+                numberSum += number;
+            }
+            if (numberSum - numberMax == numberMax) { Console.WriteLine("Yes"); Console.WriteLine($"Sum = {numberMax}"); }
+            else { Console.WriteLine("No"); Console.WriteLine($"Diff = {Math.Abs(numberSum - numberMax * 2)}"); }
         }
     }
 }
