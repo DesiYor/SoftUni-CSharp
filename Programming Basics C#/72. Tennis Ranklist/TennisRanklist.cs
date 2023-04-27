@@ -32,6 +32,24 @@ namespace _72.Tennis_Ranklist
     {
         static void Main(string[] args)
         {
+            int tur = int.Parse(Console.ReadLine());
+            int totalPoints = int.Parse(Console.ReadLine());
+            int startPoint = totalPoints;
+            int countWin = 0;
+            for (int i = 0; i < tur; i++)
+            {
+                string finnal = Console.ReadLine();
+                switch (finnal)
+                {
+                    case "W": totalPoints += 2000; countWin++; break;
+                    case "F": totalPoints += 1200; break;
+                    case "SF": totalPoints += 720; break;
+                    default: break;
+                }
+            }
+            Console.WriteLine($"Final points: {totalPoints}");
+            Console.WriteLine($"Average points: {(totalPoints-startPoint)/tur}");
+            Console.WriteLine($"{(double)countWin / tur * 100:f2}%");
         }
     }
 }
