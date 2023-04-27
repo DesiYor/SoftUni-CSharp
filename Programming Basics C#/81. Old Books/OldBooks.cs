@@ -23,6 +23,16 @@ namespace _81.Old_Books
     {
         static void Main(string[] args)
         {
+            string lovedBook = Console.ReadLine();
+            string search = null;
+            int counter = -1; // -1 защото не се брои книгата която е намерена като търсена ...   
+            while (lovedBook != search && search != "No More Books")
+            {
+                search = Console.ReadLine();
+                counter++;
+            }
+            if (search == "No More Books") { Console.WriteLine("The book you search is not here!"); Console.WriteLine($"You checked {counter} books."); }
+            else { Console.WriteLine($"You checked {counter} books and found it."); }
         }
     }
 }
