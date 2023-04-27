@@ -44,7 +44,6 @@ namespace _68.Clever_Lily
             totalMoney += toyCounter * priceToy;
             if(totalMoney >= priceWmachine) { Console.WriteLine($"Yes! {totalMoney-priceWmachine:f2}"); }
             else { Console.WriteLine($"No! {priceWmachine-totalMoney:f2}"); }
-            Console.ReadLine();
         }
     }
 }
