@@ -49,7 +49,6 @@ namespace _87.Moving
                         break;
                 }
             }
-            Console.ReadLine();
         }
     }
 }
