@@ -28,7 +28,7 @@ namespace _93.Building
                 for(int j = 0; j < rooms; j++) 
                 {
                     if (i == floor) { Console.Write($"L{i}{j} "); }
-                    else { if (i % 2 == 0) { Console.Write($"O{i}{j} "); } else { Console.Write($"A{i}{j} "); } }
+                    else { if (i % 2 == 0)  Console.Write($"O{i}{j} ");  else  Console.Write($"A{i}{j} ");  }
                 }
                 Console.Write("\n");
             }
