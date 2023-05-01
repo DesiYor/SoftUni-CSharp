@@ -25,13 +25,42 @@
 
 using System;
 
+
 namespace _99.Cinema_Tickets
 {
     internal class CinemaTickets
     {
         static void Main(string[] args)
         {
-
+            int student = 0, standard = 0, kid = 0;
+            bool endAll = false;
+            while (!endAll)
+            {
+                string filmName = Console.ReadLine();
+                if (filmName == "Finish") { endAll = true; }
+                else
+                {
+                    int places = int.Parse(Console.ReadLine());
+                    int counter = 0;
+                    for (int i = 1; i <= places; i++)
+                    {
+                        string ticked = Console.ReadLine();
+                        switch (ticked)
+                        {
+                            case "student": student++; counter++; break;
+                            case "standard": standard++; counter++; break;
+                            case "kid": kid++; counter++; break;
+                            case "End": i = places + 1; break;
+                            default: endAll = true; break;
+                        }
+                    }
+                    if (!endAll) { Console.WriteLine($"{filmName} - {(double)(counter) / places * 100:f2}% full."); }
+                }
+            }
+            Console.WriteLine($"Total tickets: {standard+student+kid}");
+            Console.WriteLine($"{(double)student / (student+standard+kid) * 100:f2}% student tickets.");
+            Console.WriteLine($"{(double)standard / (student + standard + kid) * 100:f2}% standard tickets.");
+            Console.WriteLine($"{(double)kid / (student + standard + kid) * 100:f2}% kids tickets.");
         }
     }
 }
